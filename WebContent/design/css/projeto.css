@@ -1,0 +1,104 @@
+@CHARSET "ISO-8859-1";
+
+form{
+	font-family: Philosopher;
+	text-shadow: blue;
+}
+
+p{
+	font-family: Philosopher;
+	text-align: center;
+	
+}
+
+h6{
+	font-family: Philosopher;
+	font-size: 12px;
+}
+body{
+	width: 1000px;
+	height: 560px;
+	margin: auto;
+}
+
+.container{
+		
+	position: relative;
+	width: 1000px;
+	height: 560px;
+	margin: 0 auto;	
+}
+
+
+
+h1{
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+	color: highlighttext;
+	font-family: Philosopher;
+	color: #00BFFF;
+}
+
+.imgbuilding{
+	margin: 40px;	
+	width: 216px;
+	heigth: 355px;
+}
+
+.info{
+	margin-right: -60px;
+	float: right;
+	text-aling: center;
+	width: 312px;
+	heigth: 279px;
+}
+
+.login{
+	
+	margin: 60px;
+	margin: auto;
+	text-align: center;
+	width: 450px;
+	height: 500px;
+	
+}
+
+.introducao{
+	margin: 10px;
+	text-align: justify;
+	display: block;
+	font-family: Philosopher;
+	font-style: italic;
+}
+
+.footer{
+	display: block;
+	height: auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#direitos{	
+	margin: 0 auto;
+	text-align: center;
+	font-family: Philosopher;
+	color: #FF6A6A;
+	
+}
+
+#iconecafe{
+	float: right;
+}
+
+#instrucaocadastro{
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 30px;
+}
+
+.relatoriopagamentos{
+	float: right;
+}
+	
+
