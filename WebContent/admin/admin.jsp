@@ -29,23 +29,9 @@
 
 		<div class="col_6">
 			<ul class="menu">
-				<li class="current"><a href="">Item 1</a></li>
-				<li><a href="">Item 2</a></li>
-				<li><a href=""><i class="icon-inbox"></i> Item 3</a>
-					<ul>
-						<li><a href=""><i class="icon-cog"></i> Sub Item</a></li>
-						<li><a href=""><i class="icon-envelope-alt"></i> Sub Item</a>
-							<ul>
-								<li><a href=""><i class="icon-wrench"></i> Sub Item</a></li>
-								<li><a href=""><i class="icon-camera-retro"></i> Sub
-										Item</a></li>
-								<li><a href=""><i class="icon-coffee"></i> Sub Item</a></li>
-								<li><a href=""><i class="icon-twitter"></i> Sub Item</a></li>
-							</ul></li>
-						<li class="divider"><a href=""><i class="icon-trash"></i>
-								li.divider</a></li>
-					</ul></li>
-				<li><a href="">Item 4</a></li>
+				<li class="current"><a href="listacondominos.jsp">Condôminos</a></li>
+				<li><a href="listacolaboradores.jsp">Colaboradores</a></li>
+				<li><a href="pagamentos.jsp">Pagamentos</a>
 			</ul>
 		</div>
 

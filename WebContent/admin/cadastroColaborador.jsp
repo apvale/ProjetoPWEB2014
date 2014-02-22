@@ -21,23 +21,23 @@
 			<form action="CadastraColaboradorServlet" method="post">
 			<div class="col_4 column">
 				<label for="nomeColaborador">Nome: </label><br>
-				<input id="nomeColaborador" type="text" />
+				<input id="nomeColaborador" type="text" name="nomeColaborador"/>
 				<br><br>
 				
 				<label for="profissao">Profissão: </label><br>
-				<input id="profissao" type="text" />
+				<input id="profissao" type="text" name="profissao"/>
 				<br><br>
 				
 				<label for="empresa">Empresa: </label><br>
-				<input id="empresa" type="text" />
+				<input id="empresa" type="text" name="empresa" />
 				<br><br>
 				
 				<label for="telefone">Telefone: </label><br>
-				<input id="telefone" type="text" />
+				<input id="telefone" type="text" name="telefone"/>
 				<br><br>
 				
 				<label for="horario_atendimento">Horário de Atendimento: </label><br>
-				<input id="horario_atendimento" type="text" /><br><br>
+				<input id="horario_atendimento" type="text" name="horario_atendimento"/><br><br>
 				
 				<input type="submit" value="Cadastrar" name="cdColaborador">
 				<a class="button" href="inicio.html">Voltar</a>

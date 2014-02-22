@@ -45,17 +45,15 @@ public class CadastraColaboradorServlet extends HttpServlet {
 		String telefone = request.getParameter("telefone");
 		String horario = request.getParameter("horario_atendimento");
 	
-			
-		
-		HttpSession session = request.getSession();
-		Colaborador col = new Colaborador();
-		Colaborador colaborador = new Colaborador();
-		
+		Colaborador colaborador = new Colaborador(nome_colaborador, profissao, empresa, telefone, horario);		
 
 		daoColaborador.begin();
 		daoColaborador.persist(colaborador);
 		daoColaborador.commit();		
 		daoColaborador.close();
+		
+		RequestDispatcher view = request.getRequestDispatcher("inicio.html");
+		view.forward(request, response);
 	}
 		
 }
