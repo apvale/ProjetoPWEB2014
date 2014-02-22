@@ -11,7 +11,7 @@
 	<link type="text/css" rel="stylesheet" href="design/css/projeto.css"/>
 </head>
 <body>
-	<h1>Condomínio Feminino</h1>
+	<h1>Palace Jampa</h1>
 	<hr>
 
 	<div class="login">
